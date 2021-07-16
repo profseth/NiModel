@@ -3,7 +3,7 @@ Code used to build a global Ni biogeochemical cycling model.
 
 These functions are designed to be run within the AWESOME OCIM modeling environment (https://github.com/profseth/awesomeOCIM) (John et al. 2020), and require fields of particulate Mn (van Hulten et al. 2017) and Th and Pa (van Hulten et al. 2018) which can be re-gridded from the model output provided by van Hulten, or provided in the OCIM grid upon request.
 
-Note that the model also presents results using the AO native function revscavPOC.
+Note that the model also utilizes the AO native functions conc and revscavPOC.
 
 S. G. John et al., AWESOME OCIM: A simple, flexible, and powerful tool for modeling elemental cycling in the oceans. Chem. Geol. 533, 119403 (2020).
 
